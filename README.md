@@ -8,7 +8,7 @@ with [formsy-react](https://github.com/christianalfoni/formsy-react), a form val
 To add formsy-material-ui to you package.json and install it, run:
 
 ```
-$ npm install --save formsy-material-ui
+$ npm install --save formsy-material-ui-fork-tc
 ```
 
 You will also need to add formsy-react if not already installed:
@@ -24,22 +24,22 @@ Note: For React 15.0.x compatibility, specify `"formsy-react": "^0.18.0"`.
 ### ES6 Imports
 
 ```js
-import FormsyCheckbox from 'formsy-material-ui/lib/FormsyCheckbox';
-import FormsyDate from 'formsy-material-ui/lib/FormsyDate';
-import FormsyRadio from 'formsy-material-ui/lib/FormsyRadio';
-import FormsyRadioGroup from 'formsy-material-ui/lib/FormsyRadioGroup';
-import FormsySelect from 'formsy-material-ui/lib/FormsySelect';
-import FormsyText from 'formsy-material-ui/lib/FormsyText';
-import FormsyTime from 'formsy-material-ui/lib/FormsyTime';
-import FormsyToggle from 'formsy-material-ui/lib/FormsyToggle';
-import FormsyAutoComplete from 'formsy-material-ui/lib/FormsyAutoComplete';
+import FormsyCheckbox from 'formsy-material-ui-fork-tc/lib/FormsyCheckbox';
+import FormsyDate from 'formsy-material-ui-fork-tc/lib/FormsyDate';
+import FormsyRadio from 'formsy-material-ui-fork-tc/lib/FormsyRadio';
+import FormsyRadioGroup from 'formsy-material-ui-fork-tc/lib/FormsyRadioGroup';
+import FormsySelect from 'formsy-material-ui-fork-tc/lib/FormsySelect';
+import FormsyText from 'formsy-material-ui-fork-tc/lib/FormsyText';
+import FormsyTime from 'formsy-material-ui-fork-tc/lib/FormsyTime';
+import FormsyToggle from 'formsy-material-ui-fork-tc/lib/FormsyToggle';
+import FormsyAutoComplete from 'formsy-material-ui-fork-tc/lib/FormsyAutoComplete';
 ```
 
 OR:
 
 ```js
 import { FormsyCheckbox, FormsyDate, FormsyRadio, FormsyRadioGroup, 
-  FormsySelect, FormsyText, FormsyTime, FormsyToggle, FormsyAutoComplete } from 'formsy-material-ui/lib';
+  FormsySelect, FormsyText, FormsyTime, FormsyToggle, FormsyAutoComplete } from 'formsy-material-ui-fork-tc/lib';
 ```
 
 ### Events
